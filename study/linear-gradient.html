@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Liner Gradient</title>
+	<style>
+		
+		/**
+		* 线性渐变
+		*/
+		.linear-gradient {
+			/**
+			* 兼容性代码
+			*/
+			/** webkit core */
+			background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+			/** Opera core */
+			background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+			/** Firefox core */
+			background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+			background-size: 640px 320px;
+		}
+
+		p, div {
+			// font-size: 64px;
+			width: 640;
+			height: 160;
+		}
+
+		h1 {
+			text-align: center;
+		}
+		/**
+		* 放射状渐变
+		*/
+		.radial-gradient {
+			height: 280px;
+			width: 280px;
+			border-radius: 50%;
+			background: -webkit-radial-gradient(red,orange,yellow,green,blue,indigo,violet);
+			background: -o-radial-gradient(red,green,blue);
+			background: -moz-radial-gradient(red,green,blue);
+			float: left;
+		}
+
+		#bg {
+			border: 2px;
+			border-color: solid black;
+
+		}
+
+	</style>
+</head>
+<body>
+<h1 class="linear-gradient">Gradient</h1>
+<div id="bg">
+<div class="linear-gradient">Linear-Gradient</div>
+<p class="linear-gradient">Linear-Gradient</p>
+<section class="linear-gradient">Linear-Gradient</section>
+</div>
+<div id="bg">
+<div class="radial-gradient"></div>
+<p class="radial-gradient""></p>
+<section class="radial-gradient"></section>
+<article class="radial-gradient"></article>
+</div>
+</body>
+</html>
