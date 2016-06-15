@@ -1,0 +1,29 @@
+.container {
+	width: 72%;
+	// margin-top: 60px;
+}
+
+
+#page-title {
+	text-align: center;
+	margin-bottom: 50px;
+	box-shadow: 
+}
+
+p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#p1 {
+	background-color: #1ABC9C;
+}
+#p2 {
+	background-color: #16A085;
+}
+#p3 {
+	background-color: #1ABC9C;
+}
+#p4 {
+	background-color: #16a085;
+}
